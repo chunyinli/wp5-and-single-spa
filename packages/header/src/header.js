@@ -19,7 +19,7 @@ const Header = () => {
               className="mui--appbar-height mui--text-display1"
               style={{ paddingLeft: '1em' }}
             >
-              Header
+              Header Header
             </td>
             <td
               className="mui--appbar-height mui--text-display1"

@@ -11,7 +11,7 @@ const Footer = () => (
             className="mui--appbar-height mui--text-display1"
             style={{ paddingLeft: '1em' }}
           >
-            Footer
+            Footer Footer
           </td>
         </tr>
       </tbody>

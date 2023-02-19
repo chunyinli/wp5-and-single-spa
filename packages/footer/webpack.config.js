@@ -34,17 +34,16 @@ module.exports = {
 
   plugins: [
     new ModuleFederationPlugin({
-      name: 'nav',
-      library: { type: 'var', name: 'nav' },
+      name: 'footer',
+      library: { type: 'var', name: 'footer' },
       filename: 'remoteEntry.js',
       remotes: {
         store: 'store',
       },
       exposes: {
-        './Header': './src/header',
         './Footer': './src/footer',
       },
-      shared: ['react', 'react-dom', 'single-spa-react']
+      shared: ['react']
     }),
     new HtmlWebpackPlugin({
       template: './public/index.html',

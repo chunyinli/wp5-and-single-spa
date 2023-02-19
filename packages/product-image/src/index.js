@@ -1,4 +1,4 @@
-import fruit from 'home/fruit';
+import fruit from './fruit';
 import singleSpaHtml from 'single-spa-html';
 import store from 'store/store';
 

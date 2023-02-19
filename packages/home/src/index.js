@@ -8,20 +8,20 @@ registerApplication(
 
 registerApplication(
   'header',
-  () => import('nav/Header'),
+  () => import('header/Header'),
   location => location.pathname.startsWith('/')
 );
 
 registerApplication(
   'footer',
-  () => import('nav/Footer'),
+  () => import('footer/Footer'),
   location => location.pathname.startsWith('/')
 );
 
-registerApplication(
-  'buy-tools',
-  () => import('buyTools/BuyTools'),
-  location => location.pathname.startsWith('/')
-);
+// registerApplication(
+//   'buy-tools',
+//   () => import('buyTools/BuyTools'),
+//   location => location.pathname.startsWith('/')
+// );
 
 start();

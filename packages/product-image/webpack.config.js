@@ -38,7 +38,6 @@ module.exports = {
       library: { type: 'var', name: 'productImage' },
       filename: 'remoteEntry.js',
       remotes: {
-        home: 'home',
         store: 'store',
       },
       exposes: {
